@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images</title>
+    <style>
+         .header{
+            grid-area: header;
+         }
+         .div{
+            grid-area: div;
+         }
+         .main{
+            grid-area:main ;
+         }
+         .aside{
+            grid-area: aside;
+         }
+         .container{
+            display: grid;
+            grid-template-areas: 
+            header  header  header  header
+            main    div      div     aside
+            main     div      div     aside;
+         }
+
+
+    </style>
+</head>
+<body class="container">
+ <section>
+    <header class="header">
+        <h1>Why Choose Us</h1>
+        <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin <br>
+             literature from 45 BC, making it over 2000 years old.</p>
+    </header>
+    <div class="container">
+    <main class="main">
+        <h2>Dedicated Team</h2>
+        <p>Professional employees are there for <br>
+           you to pick the most amazing and fresh fruits.</p>
+           <h2>Fresh is Best</h2>
+           <p>Professional employees are there <br>
+               for you to pick the most amazing and fresh fruits.</p>
+               <h2>Gift Certificates</h2>
+               <p>Professional employees are there <br>
+                   for you to pick the most amazing and fresh fruits.</p>
+       </main>
+
+     <div class="div">
+          <img src="whychoose1.png" alt="">
+     </div>
+  
+     <aside class="aside">
+     <h2>Integrated Supplier</h2>
+     <p>Professional employees are there for <br>
+         you to pick the most amazing and fresh fruits.</p> 
+         <h2>Sustainable Practice</h2>
+         <p>Professional employees are there for <br>
+             you to pick the most amazing and fresh fruits.</p>
+             <h2>The Benefits Only</h2>
+             <p>Professional employees are there for you to <br>
+                 pick the most amazing and fresh fruits.</p>
+                 <h2>The Benefits Only</h2>
+                 <p>Professional employees are there for <br>
+                     you to pick the most amazing and fresh fruits.</p>
+     </aside>
+    </div>
+
+ </section>       
+    
+</body>
+</html>
